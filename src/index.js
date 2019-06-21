@@ -5,6 +5,15 @@ import App from './App';
 import "./stylesheets/main.scss"
 
 //引入post.js文件
-import "./modules/post"
-ReactDOM.render(<App />, document.getElementById('root'));
+//import "./modules/post"
+import "./modules/axios-utils"
+
+//使用rem.js
+import "./modules/rem.js"
+//在这使用HashRouter时可以起个别名
+import {HashRouter as Router} from "react-router-dom"
+ReactDOM.render(
+    <Router>
+        <App />
+    </Router> , document.getElementById('root'));
 

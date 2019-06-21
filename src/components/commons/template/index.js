@@ -1,6 +1,6 @@
-import React,{Commponent} from "react"
+import React,{Component} from "react"
 import "./index.scss"
-class Template extends Commponent{
+class Template extends Component{
     render(){
         return (
             <div>Template</div>
